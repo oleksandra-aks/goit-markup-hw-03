@@ -1,0 +1,166 @@
+body{
+    font-family: 'Roboto', sans-serif ;
+    background-color: #FFFFFF;
+    color:#434455;
+    font-size: 16px;
+}
+
+.body ul{
+    list-style-type: none;
+}
+
+.header  a{
+    text-decoration: none;
+
+}
+
+.site-name{
+    font-family: 'Raleway', sans-serif;
+    color: #4D5AE5;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navigation{
+    color: #2E2F42 ;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.navigation:hover,
+.navigation:focus{
+    color: #404BBF;
+}
+
+.address{
+    font-style: normal;
+}
+
+.contacts{
+    font-weight: 400;
+    line-height: 1.5;
+    color: #434455;
+    letter-spacing: 0.02em;
+}
+
+.contacts:hover,
+.contacts:focus{
+    color: #404BBF;
+}
+
+
+
+.studio{
+    color: #2e2f42;
+}
+
+
+.first-section{
+    background-color: #2E2F42;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.main-title{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.order-button{
+    color: #FFFFFF;
+    font-weight: 500;
+    background-color: #4D5AE5;
+    border: none;
+    line-height: 1.5;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.04em;
+}
+
+.order-button:hover,
+.order-button:focus{
+    background-color: #404BBF;
+}
+
+.features{
+    visibility: hidden;
+}
+
+.title{
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+
+
+.advantage-list{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    color: #434455;
+}
+
+
+.third-section{
+    background-color: #F4F4FD;
+}
+
+.our-team-list{
+    background-color: #FFFFFF;
+}
+
+.our-team{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.portfolio-main{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.portfolio-title{
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.portfolio-list{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.footer{
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+
+.studio-footer{
+    color: #F4F4FD;
+
+}
+
+.footer-art{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
