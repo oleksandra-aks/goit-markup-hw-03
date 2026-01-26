@@ -17,6 +17,9 @@ h1, h2, h3, h4, h5, h6, p{
 
 img{
     display: block;
+    width: 100%;
+    height: auto;
+
 }
 
 .container{
@@ -170,7 +173,8 @@ img{
 }
 
 .second-section-list li{
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 24px * 3) / 4);
+    flex-direction: column;
 }
 
 .title{
@@ -180,7 +184,6 @@ img{
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-bottom: 8px;
-    text-align: center;
 }
 
 
@@ -190,7 +193,6 @@ img{
     letter-spacing: 0.02em;
     font-size: 16px;
     color: #434455;
-    text-align: center;
 }
 
 
@@ -206,7 +208,7 @@ img{
 
 .our-team-list{
     background-color: #FFFFFF;
-    width: calc((100% - 72) / 4);
+    width: calc((100% - 24px * 3) / 4);
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
     padding-bottom: 32px;
@@ -225,7 +227,6 @@ img{
     text-transform: capitalize;
     color: #2E2F42;
     margin-bottom: 72px;
-    padding-top: 120px;
 }
 
 .fourth-section{
